@@ -5,15 +5,20 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/textReceived"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Second Screen"
+        android:layout_margin="8dp"
+        android:text="Text Received"
         android:textSize="24sp" />
 
     <Button
         android:id="@+id/goToFstScreenBtn"
-        android:text="Go to first screen"
+        android:text="back"
         android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:layout_margin="8dp"
+        android:background="@color/colorPrimary"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 </LinearLayout>
