@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:gravity="center"
     android:orientation="vertical"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="24dp"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,15 +11,25 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="First Screen"
+        android:layout_margin="8dp"
+        android:textStyle="bold"
+        android:text="Send Text"
         android:textSize="24sp" />
+
+    <EditText
+        android:layout_margin="8dp"
+        android:textAlignment="center"
+        android:hint="type text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     <Button
         android:id="@+id/goToSndScreenBtn"
-        android:text="Go to second screen"
+        android:layout_margin="8dp"
+        android:text="Send"
         android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-
-
 </LinearLayout>
